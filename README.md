@@ -1,3 +1,3 @@
-# PrevisaoTempoApi
+# PersonApi
 
-Projeto de integração com API de previsão de tempo que disponibiliza as informações para o usuário a partir da localidade pesquisada. Construído e personalizado a partir do curso da Digital Innovation One.
+Projeto de sistema de gerenciamento de pessoas com API Rest com Spring Boot, construído seguindo o curso da Digital Innovation One.
