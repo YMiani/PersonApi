@@ -17,7 +17,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import javax.validation.Valid;
 import java.util.List;
 
@@ -26,6 +27,10 @@ import java.util.List;
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class PersonController {
 
+    @RequestMapping("/")
+    public String home(){
+        return "Hello World!";
+    }
     private PersonService personService;
 
     @PostMapping
